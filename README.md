@@ -30,5 +30,5 @@ How often are drivers late for the next check-in? How does it impact the next dr
 How many problematic cases will it solve depending on the chosen threshold and scope? </br>
 
 ## Certification information
-* Email adress: delphinecesar@gmail.com
+* Email address: delphinecesar@gmail.com
 * Video presentation:
