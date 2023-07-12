@@ -1,0 +1,9 @@
+uvicorn[standard]
+gunicorn
+fastapi
+pickleshare
+pydantic 
+pandas 
+numpy
+scikit-learn
+joblib
