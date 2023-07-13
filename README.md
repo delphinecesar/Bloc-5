@@ -31,4 +31,4 @@ How many problematic cases will it solve depending on the chosen threshold and s
 
 ## Certification information
 * Email address: delphinecesar@gmail.com
-* Video presentation:
+* Video presentation: https://share.vidyard.com/watch/EE7f2pLHfN4nqHyG7adbko
