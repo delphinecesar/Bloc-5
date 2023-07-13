@@ -1,5 +1,9 @@
 # Bloc 5: Getaround Analysis
 
+## Certification information
+* Email address: delphinecesar@gmail.com
+* Video presentation: https://share.vidyard.com/watch/EE7f2pLHfN4nqHyG7adbko
+
 ## Links
 - Streamlit dashboard: https://getaround-dashboard-dc-86e9a13809ab.herokuapp.com
 - API: https://getaround-api-dc-e2058e383f63.herokuapp.com/docs
@@ -28,7 +32,3 @@ Which share of our owner’s revenue would potentially be affected by the featur
 How many rentals would be affected by the feature depending on the threshold and scope we choose? </br>
 How often are drivers late for the next check-in? How does it impact the next driver? </br>
 How many problematic cases will it solve depending on the chosen threshold and scope? </br>
-
-## Certification information
-* Email address: delphinecesar@gmail.com
-* Video presentation: https://share.vidyard.com/watch/EE7f2pLHfN4nqHyG7adbko
