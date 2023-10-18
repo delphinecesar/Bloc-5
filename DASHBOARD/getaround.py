@@ -76,8 +76,9 @@ st.markdown("""
 """,unsafe_allow_html=True)
 
 # banner
-image = Image.open("https://raw.githubusercontent.com/delphinecesar/Bloc-5/main/DASHBOARD/banner.png") 
-st.image(image)
+url = "https://raw.githubusercontent.com/delphinecesar/Bloc-5/main/DASHBOARD/banner.png"
+#image = Image.open("https://raw.githubusercontent.com/delphinecesar/Bloc-5/main/DASHBOARD/banner.png") 
+st.image(url)
 # Afficher l'image à l'aide de st.image
 #st.image(image, caption='banner', use_column_width=True)
 
