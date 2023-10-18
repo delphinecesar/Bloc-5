@@ -423,7 +423,7 @@ with col1:
 with col2:
     fig = px.pie(dataset_join_clean[dataset_join_clean["delay_status"] == "Impacted"], 
         names='state', 
-        title= 'Rental state for impacted cars', 
+        title= 'Rental state for non impacted cars', 
         color_discrete_sequence=px.colors.qualitative.Set2,
         hole=0.4)
     fig.update_traces(
