@@ -76,7 +76,7 @@ st.markdown("""
 """,unsafe_allow_html=True)
 
 # banner
-image = Image.open("banner.png")    
+image = Image.open("https://github.com/delphinecesar/Bloc-5/blob/main/DASHBOARD/banner.png")    
 st.image(image)
 
 # load dataset
