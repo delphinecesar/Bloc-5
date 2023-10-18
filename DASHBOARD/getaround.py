@@ -83,9 +83,9 @@ st.image(url)
 #st.image(image, caption='banner', use_column_width=True)
 
 # load dataset
-dataset_clean = pd.read_csv('dataset_clean.csv')
-dataset_join = pd.read_csv('dataset_join.csv')
-dataset_join_clean = pd.read_csv('dataset_join_clean.csv')
+dataset_clean = pd.read_csv('DASHBOARD/dataset_clean.csv')
+dataset_join = pd.read_csv('DASHBOARD/dataset_join.csv')
+dataset_join_clean = pd.read_csv('DASHBOARD/dataset_join_clean.csv')
 
 # Title
 st.title("🚙 Dashboard")
