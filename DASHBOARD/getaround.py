@@ -9,78 +9,75 @@ from PIL import Image
 # layout
 st.set_page_config(layout="wide")
 
-st.markdown(""" 
-<style>
-    /* above the header */
-    [data-testid="stHeader"] {
-    background-color: rgba(0, 0, 0, 0);
-    }
-    
-    /* central part */
-    [data-testid="stAppViewContainer"] {
-    background-color: white;
-    }
-
-    /* sidebar*/
-    [data-testid="stSidebar"] {
-    background-color: #B01AA7;
-    }
-
-    /* streamlit buttons*/
-        /* arrow + 3 lines*/
-    .css-fblp2m{
-        color:#B01AA7 !important;
-    }
-    .css-fblp2m:hover{
-        color:#31333F !important;
-    }
-        /* cross*/
-    section[data-testid="stSidebar"] .css-fblp2m{
-        color:white !important;
-    }
-    section[data-testid="stSidebar"] .css-fblp2m:hover{
-        color:#31333F !important;
-    }
-
-    /* Titles*/
-    .css-10trblm {
-    color:#B04AA7;
-    }
-    /* Streamlit link*/
-    .css-1vbd788 {
-    color:#31333F !important;
-    text-decoration-line:underline;
-    }
-    .css-1vbd788:hover {
-    color:#B04AA7 !important;
-    }
-
-    /* Links*/
-    a {
-    color:white !important;
-    }
-    a:hover {
-    color:#46B1C9 !important;
-    }
-
-    /* buttons */
-    .css-10y5sf6 {
-    color: rgb(176, 26, 167);
-    }
-    
-    .css-1vzeuhh {
-    background-color: rgb(176, 26, 167);
-    }
-    
-</style>       
-""",unsafe_allow_html=True)
+#st.markdown(""" 
+#<style>
+#    /* above the header */
+#    [data-testid="stHeader"] {
+#    background-color: rgba(0, 0, 0, 0);
+#    }
+#    
+#    /* central part */
+#    [data-testid="stAppViewContainer"] {
+#    background-color: white;
+#    }
+#
+#    /* sidebar*/
+#    [data-testid="stSidebar"] {
+#    background-color: #B01AA7;
+#    }
+#
+#    /* streamlit buttons*/
+#        /* arrow + 3 lines*/
+#    .css-fblp2m{
+#        color:#B01AA7 !important;
+#    }
+#    .css-fblp2m:hover{
+#        color:#31333F !important;
+#    }
+#        /* cross*/
+#    section[data-testid="stSidebar"] .css-fblp2m{
+#        color:white !important;
+#    }
+#    section[data-testid="stSidebar"] .css-fblp2m:hover{
+#        color:#31333F !important;
+#    }
+#
+#    /* Titles*/
+#    .css-10trblm {
+#    color:#B04AA7;
+#    }
+#    /* Streamlit link*/
+#    .css-1vbd788 {
+#   color:#31333F !important;
+#    text-decoration-line:underline;
+#    }
+#    .css-1vbd788:hover {
+#    color:#B04AA7 !important;
+#    }
+#
+#    /* Links*/
+#    a {
+#    color:white !important;
+#    }
+#    a:hover {
+#    color:#46B1C9 !important;
+#    }
+#
+#    /* buttons */
+#    .css-10y5sf6 {
+#    color: rgb(176, 26, 167);
+#    }
+#    
+#    .css-1vzeuhh {
+#    background-color: rgb(176, 26, 167);
+#    }
+#    
+#</style>       
+#""",unsafe_allow_html=True)
 
 # banner
-#url = "https://raw.githubusercontent.com/delphinecesar/Bloc-5/main/DASHBOARD/banner.png"
 image = Image.open("DASHBOARD/banner.png") 
 st.image(image)
-# Afficher l'image à l'aide de st.image
-#st.image(image, caption='banner', use_column_width=True)
 
 # load dataset
 dataset_clean = pd.read_csv('DASHBOARD/dataset_clean.csv')
