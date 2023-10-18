@@ -1,1 +1,9 @@
-
+boto3
+pandas
+gunicorn
+streamlit
+sklearn
+matplotlib
+seaborn
+plotly
+openpyxl
