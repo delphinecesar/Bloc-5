@@ -4,7 +4,7 @@ plotly-express
 boto3
 pandas
 gunicorn
-sklearn
+scikit-learn
 matplotlib
 seaborn
 openpyxl
