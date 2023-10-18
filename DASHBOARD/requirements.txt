@@ -1,11 +1,10 @@
 streamlit
+plotly
+plotly-express
 boto3
 pandas
 gunicorn
-streamlit
 sklearn
 matplotlib
 seaborn
-plotly
-plotly-express
 openpyxl
