@@ -6,5 +6,6 @@ streamlit
 sklearn
 matplotlib
 seaborn
-plotly==4.14.3
+plotly
+plotly-express
 openpyxl
